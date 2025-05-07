@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+}
+
+.item {
+    background-color: #ffcccb;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 20px);
+}
