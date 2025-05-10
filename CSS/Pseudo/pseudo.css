@@ -1,0 +1,29 @@
+/* Syntax for Pseudo-classes */
+/* Pseudo-class syntax */
+/*selector:pseudo-class {
+  property: value;
+}*/
+
+/* Anchor pseudo-class */
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  /* selected link */
+a:active {
+    color: #0000FF;
+  }
+
+  /*Note: a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective!
+  a:active MUST come after a:hover in the CSS definition in order to be effective!
+  Pseudo-class names are not case-sensitive.*
